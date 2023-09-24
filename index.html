@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet"href="style.css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>My Personal Website</title>
+
+ </head>    
+<body style="background-color:black;",>
+
+	<header>
+        <div class="topnav" id="myTopnav">
+            <a class="active" href="#home">Home</a>
+            <a href="#news">News</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">About</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+            </a>
+          </div>
+          <script>function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+              x.className += " responsive";
+            } else {
+              x.className = "topnav";
+            }
+          }</script>
+    <table align="center">
+  <tr>
+    <td>
+    <img src="images/mylogo.PNG" alt="" width=80px>
+    </td>
+    <td>
+    <h6 style="line-height:1%;">My Personal Website</h6>
+		<h1 style="line-height:1%;">Kurt Jennings Sr.</h1><br><!--title-->
+    </td>
+  </tr>
+  </table>
+	</header>
+  <main>
+      
+      <div class="center" style="background-image:url(images/newcodebg.jpeg); padding:10px; background-size:100%">
+    <h1>Welcome to my personal website</h1>
+    <p>The purpose of this website is to start a portfolio for Web Development</p>
+      </div>
+      <div>
+    <section style="color:WHITE; padding:10px ">
+      <img src="images/me.jpeg" alt="" width=100px align=right style=padding:25px;>
+      <h1>ABOUT ME</h1><p>I currently work for Amazon DCM3 in Cleveland, Ohio. I am also a freelance web designer. I enjoy playing video games, watching WWE and music, whenever my schedule allows. Also, I’m currently creating content for my gaming You Tube channel.</p></section></div><br><br>
+      
+    <section style="background-image:url(images/newcodebg.jpeg); padding:10px; background-size:100%"; class="section fade-in">
+      <h1>FEATURED CONTENT</h1>
+  <main class="grid">
+  <div class="center example-4">
+    <h2>Call Of Duty</h2>
+    <a href="#" class="link">
+    <img class="game-img" src="images/codmw.jpeg" alt="COD MWII"></a>
+  <p>For The COD Boys</p>
+  </div>
+  <div class="center example-4">
+    <h2>WWE 2K23</h2>
+    <a href="#" class="link"><img class="game-img" src="images/wwe2k23.jpeg" alt="WWE2K23"></a>
+  <p>It Just Hits Different</p>
+  </div>
+  <div class="center example-4">
+    <h2>"NBA 2K23</h2>
+    <a href="#" class="link"><img class="game-img" src="images/nba2k23.jpg" alt="NBA2K23"></a>
+  <p>Meet me in the Park</p>
+  </div></section><br><br>
+  <section style="background-image:url(images/newcodebg.jpeg); padding:10px; background-size:100%"; class="section fade-in">
+  <div class="container">
+    <div class="project-heading">
+      <h1 class="title">Sample T-Shirt Designs</h1>
+      <div class="subtitle" style="color:white">Click the buttons to change the image!</div>
+    </div>
+
+    <div id="slider">
+      <img src="images/IMG_8759.jpg" alt="Image 1">
+      <img src="images/IMG_8760.JPG" alt="Image 2">
+      <img src="images/IMG_8761.JPG" alt="Image 3">
+      <img src="images/IMG_8762.JPG" alt="Image 4">
+      <button id="prev">&lt;</button>
+      <button id="next">&gt;</button>
+    </div>
+  </div></section>
+
+  <div>
+        <h2>EXAMPLES</h2>
+        <p>Click <a href="https://youtu.be/Cs-UeKKOkso">here</a> for a sample from my YouTube channel!</p>
+  </div><br><br>
+  <section style="background-image:url(images/newcodebg.jpeg); padding:10px; background-size:100%">
+  <div>
+        <h2>MORE CONTENT TO COME</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, molestiae voluptas! Quos quam minima voluptatum libero molestias maxime eos. Ea iste iure enim ipsum, cum molestiae rem accusamus corrupti error?</p></div><br><br>
+        <div>
+    <article>
+      <h1>MY WEB DEVELOPMENT JOURNEY </h1>
+      <p>My journey to becoming a web developer has been an interesting one. I begin teaching myself how to code out of curiosity. Later on, I pursued an Associate’s Degree in Computer Networking from Remington College.</p>
+      <p>Afterward, I began my career as a freelance web designer. I am currently pursuing a Software/Web Development certificate to further enhance my ability to turn this into a great career. So far, I've been able to refresh my knowledge of web development with basic and advanced HTML and CSS skills. I look forward to what's to come.</p>
+    </article>
+    </div></section>
+    CTA lands here
+    <form align="center">
+        <h2>Contact Me</h2>
+        <label for="fname" style="color:white; font-family: Verdana">Enter Your Email Address Here:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <input type="submit" value="Submit">
+      </form>
+  </main><br><br>
+	<footer style="color:white; font-family: Verdana" align="center">
+    <a href="https://www.youtube.com/@80hdtvgaming45"><img src="images/icons8-youtube-cuadrado.svg" alt="YouTube"></a><br>
+    &copy 2023
+    kwkreationz@gmail.com
+  </footer>
+  <script src="./script.js"></script>	
+</body>
+</html>
